@@ -1,0 +1,18 @@
+  .loginForm {
+    width: 20% !important;
+    height: 25px;
+    margin-top: 5px;
+  }
+  
+  .loginLabel{
+    margin-right: 1%;
+  }
+  
+  .loginSubmit{
+    margin-top: 1%;
+    width: 30%;
+    height: 35px;
+    background-color: lightgray;
+    font-weight: 500;
+    box-shadow: 8px 8px 12px #aaa;
+  }
