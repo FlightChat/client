@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 import "./Register.css";
 
-export default class register extends Component {
+export default class Register extends Component {
   constructor(props) {
     super(props);
 

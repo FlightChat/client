@@ -1,0 +1,8 @@
+.cards-temp{
+    width: 25% !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-left: 2%;
+}

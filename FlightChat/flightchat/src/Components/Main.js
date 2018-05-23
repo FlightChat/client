@@ -7,7 +7,7 @@ import Login from './Login/Login';
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Home/Home}/>
+      <Route exact path='/' component={Home}/>
       <Route exact path='/login' component={Login}/>
       <Route exact path='/register' component={Register}/>
     </Switch>
