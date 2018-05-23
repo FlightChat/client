@@ -1,0 +1,29 @@
+
+.register{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .registerForm {
+      width: 20% !important;
+      height: 25px;
+      margin-top: 5px;
+    }
+    
+    .registerLabel{
+      margin-right: 1%;
+    }
+    
+    .registerSubmit{
+      margin-top: 1%;
+      width: 26%;
+      height: 50px;
+      background-color: lightgray;
+      font-weight: 500;
+      box-shadow: 8px 8px 12px #aaa;
+    }
+  
+    .form-control{
+      display: unset !important;
+    }

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
-import "./Login.css";
+import "./Register.css";
 
-export default class Login extends Component {
+export default class register extends Component {
   constructor(props) {
     super(props);
 
@@ -28,35 +28,45 @@ export default class Login extends Component {
 
   render() {
     return (
-      <div className="login">
+      <div className="register">
         <form onSubmit={this.handleSubmit}>
-          <FormGroup controlId="email" bsSize="large" className="loginEmail">
-            <ControlLabel className="loginLabel" >Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ControlLabel>
+          <FormGroup controlId="email" bsSize="large" className="registerEmail">
+            <ControlLabel className="registerLabel" >Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</ControlLabel>
             <FormControl
               autoFocus
               type="email"
-              className="loginForm"
+              className="registerForm"
               value={this.state.email}
               onChange={this.handleChange}
             />
           </FormGroup>
           <FormGroup controlId="password" bsSize="large">
-            <ControlLabel className="loginLabel" >Password</ControlLabel>
+            <ControlLabel className="registerLabel" >Password</ControlLabel>
             <FormControl
               autoFocus
               type="password"
-              className="loginForm"
+              className="registerForm"
+              value={this.state.password}
+              onChange={this.handleChange}
+            />
+          </FormGroup>
+          <FormGroup controlId="password" bsSize="large">
+            <ControlLabel className="registerLabel" >Password</ControlLabel>
+            <FormControl
+              autoFocus
+              type="password"
+              className="registerForm"
               value={this.state.password}
               onChange={this.handleChange}
             />
           </FormGroup>
           <Button
             bsSize="large"
-            className="loginSubmit"
+            className="registerSubmit"
             disabled={!this.validateForm()}
             type="submit"
           >
-            Login
+            register
           </Button>
         </form>
       </div>
