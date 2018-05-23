@@ -32,29 +32,39 @@ export default class Home extends Component {
       return (
         <div>
            <Card className="cards-temp">
+                <div className="cards-style">
                 <ImageHeader imageSrc="http://dreamicus.com/data/flight/flight-02.jpg" />
                 <CardBody>Body</CardBody>
                 <CardFooter>Footer</CardFooter>
+                </div>
             </Card>
             <Card className="cards-temp">
+                <div className="cards-style">
                 <ImageHeader imageSrc="http://dreamicus.com/data/flight/flight-02.jpg" />
                 <CardBody>Body</CardBody>
                 <CardFooter>Footer</CardFooter>
+                </div>
             </Card>
             <Card className="cards-temp">
+                <div className="cards-style">
                 <ImageHeader imageSrc="http://dreamicus.com/data/flight/flight-02.jpg" />
                 <CardBody>Body</CardBody>
                 <CardFooter>Footer</CardFooter>
+                </div>
             </Card>
             <Card className="cards-temp">
+                <div className="cards-style">
                 <ImageHeader imageSrc="http://dreamicus.com/data/flight/flight-02.jpg" />
                 <CardBody>Body</CardBody>
                 <CardFooter>Footer</CardFooter>
+                </div>
             </Card>
             <Card className="cards-temp">
+                <div className="cards-style">
                 <ImageHeader imageSrc="http://dreamicus.com/data/flight/flight-02.jpg" />
                 <CardBody>Body</CardBody>
                 <CardFooter>Footer</CardFooter>
+                </div>
             </Card>
         </div>
         
