@@ -3,7 +3,6 @@ import React from 'react'
 //import {Navbar, Nav, NavItem, MenuItem, NavDropdown} from 'react-bootstrap';
 //import $ from 'jquery'
 import "../index.css"
-import FaIconPack from 'react-icons/lib/fa'
 
 /*
 $(function(){
